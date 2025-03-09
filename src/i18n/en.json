@@ -15,9 +15,9 @@
   },
   "home": {
     "hero": {
-      "title1": "Hello, I'm a",
-      "title2": "DevSecOps",
-      "subtitle": "I design, secure and deploy modern applications",
+      "title1": "Hello, I'm",
+      "title2": "Flavien Tsenda",
+      "subtitle": "DevSecOps Engineer, I design, secure and deploy modern applications",
       "cta1": "View my projects",
       "cta2": "Learn more"
     },
@@ -53,42 +53,408 @@
     }
   },
   "about": {
-    "title": "About me",
+    "title": "About Me",
     "description": "DevSecOps professional passionate about integrating security into the software development lifecycle.",
-    "experience": "Experience",
+    "whoAmI": "Who am I?",
+    "bio": {
+      "part1": "I'm a DevSecOps engineer with extensive experience integrating security practices into continuous development and deployment cycles. I've worked on diverse projects ranging from cloud-native applications to critical infrastructure.",
+      "part2": "My passion is building secure-by-design systems, automating security controls, and making security accessible to all members of the development team."
+    },
+    "tags": [
+      "DevSecOps",
+      "Automation",
+      "Cloud Native",
+      "Application Security",
+      "CI/CD",
+      "Infrastructure as Code"
+    ],
+    "experience": "Professional Experience",
+    "jobs": [
+      {
+        "period": "2023 - Present",
+        "location": "Paris, France",
+        "title": "Senior DevSecOps Engineer",
+        "company": "EnterpriseTech",
+        "description": "Responsible for implementing and managing secure infrastructure and CI/CD pipelines.",
+        "achievements": [
+          "Set up a CI/CD platform with integrated security gates reducing vulnerabilities by 70%",
+          "Automated security controls in the deployment pipeline",
+          "Developed an enterprise secret management solution",
+          "Trained development teams on DevSecOps best practices"
+        ],
+        "technologies": [
+          "Kubernetes",
+          "AWS",
+          "Terraform",
+          "GitLab CI",
+          "Docker",
+          "Vault",
+          "Prometheus",
+          "Grafana"
+        ]
+      },
+      {
+        "period": "2020 - 2023",
+        "location": "Lyon, France",
+        "title": "DevOps Engineer",
+        "company": "SecuriTech",
+        "description": "Responsible for cloud infrastructure and deployment automation.",
+        "achievements": [
+          "Migrated 15 monolithic applications to a microservices architecture",
+          "Reduced deployment time by 80% through automation",
+          "Implemented a centralized monitoring and logging solution",
+          "Set up infrastructure as code with Terraform"
+        ],
+        "technologies": [
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Jenkins",
+          "Elasticsearch",
+          "Ansible",
+          "Python"
+        ]
+      }
+    ],
     "education": "Education",
-    "skills": "Skills"
+    "educations": [
+      {
+        "period": "2017 - 2020",
+        "location": "Paris, France",
+        "degree": "Master's in Information Security",
+        "institution": "École Polytechnique",
+        "description": "Specialized in cybersecurity and secure development. Final project on automating penetration testing in CI/CD pipelines."
+      },
+      {
+        "period": "2014 - 2017",
+        "location": "Lyon, France",
+        "degree": "Bachelor's in Computer Science",
+        "institution": "Claude Bernard University Lyon 1",
+        "description": "General computer science education with a focus on software development."
+      }
+    ],
+    "certifications": "Certifications",
+    "certificationList": [
+      {
+        "icon": "🔒",
+        "name": "Certified Kubernetes Security Specialist (CKS)",
+        "issuer": "Cloud Native Computing Foundation",
+        "date": "2023",
+        "description": "Advanced certification on securing Kubernetes environments."
+      },
+      {
+        "icon": "☁️",
+        "name": "AWS Certified Security - Specialty",
+        "issuer": "Amazon Web Services",
+        "date": "2022",
+        "description": "Expertise in security on the AWS platform."
+      },
+      {
+        "icon": "🛡️",
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "issuer": "ISC²",
+        "date": "2021",
+        "description": "Internationally recognized certification in information security."
+      }
+    ],
+    "skillsTitle": "Technical Skills",
+    "skillCategories": {
+      "development": {
+        "title": "Development",
+        "skills": [
+          { "name": "JavaScript/TypeScript", "level": 90 },
+          { "name": "Python", "level": 85 },
+          { "name": "Go", "level": 75 },
+          { "name": "Vue.js/React", "level": 80 },
+          { "name": "RESTful APIs", "level": 85 }
+        ]
+      },
+      "security": {
+        "title": "Security",
+        "skills": [
+          { "name": "SAST/DAST", "level": 90 },
+          { "name": "Pentesting", "level": 80 },
+          { "name": "Secret Management", "level": 85 },
+          { "name": "GDPR Compliance", "level": 75 },
+          { "name": "OAuth/OIDC", "level": 85 }
+        ]
+      },
+      "operations": {
+        "title": "Operations",
+        "skills": [
+          { "name": "Kubernetes", "level": 90 },
+          { "name": "Docker", "level": 95 },
+          { "name": "CI/CD", "level": 90 },
+          { "name": "Terraform", "level": 85 },
+          { "name": "Cloud (AWS/GCP)", "level": 80 }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Interested in working together?",
+      "description": "I'm always open to new opportunities and exciting projects. Feel free to reach out to discuss how I could contribute to your team or project.",
+      "cta": "Contact me"
+    }
   },
   "values": {
-    "title": "My values",
+    "title": "My Values",
+    "description": "The principles that guide my DevSecOps approach and shape my daily professional practice.",
     "security": {
       "title": "Security by Design",
-      "description": "Security must be integrated from the beginning of the development process."
+      "description": "Security must be integrated from the beginning of the development process, not added as an afterthought.",
+      "points": [
+        "Threat analysis and risk modeling upstream of development",
+        "Automated security testing at each stage of the pipeline",
+        "Principle of least privilege in all design",
+        "Continuous education of teams on security best practices"
+      ]
     },
     "automation": {
       "title": "Automation",
-      "description": "Process automation reduces human error and accelerates deployment."
+      "description": "Process automation reduces human error, accelerates deployment, and improves reliability.",
+      "points": [
+        "Infrastructure as Code for reproducible environments",
+        "CI/CD pipelines for reliable and fast deployments",
+        "Automated testing to ensure quality and security",
+        "Automated monitoring and alerting for proactive problem detection"
+      ]
     },
     "collaboration": {
       "title": "Collaboration",
-      "description": "Collaboration between development, security, and operations teams is essential."
+      "description": "Collaboration between development, security, and operations teams is essential to create robust and secure systems.",
+      "points": [
+        "DevSecOps culture where security is everyone's responsibility",
+        "Knowledge sharing and cross-disciplinary training",
+        "Open and transparent communication",
+        "Collaborative code reviews integrating security aspects"
+      ]
     },
     "continuousImprovement": {
       "title": "Continuous Improvement",
-      "description": "Continuous improvement of processes and skills is necessary to remain competitive."
+      "description": "Continuous improvement of processes, tools, and skills is necessary to maintain excellence and adapt to new threats.",
+      "points": [
+        "Regular retrospective analysis of incidents and near-misses",
+        "Active technology watch on new threats",
+        "Continuous updating of tools and practices",
+        "Ongoing training and knowledge sharing"
+      ]
+    },
+    "quote": {
+      "text": "Security is a process, not a product.",
+      "author": "Bruce Schneier"
+    },
+    "application": {
+      "title": "How I Apply These Values",
+      "practices": [
+        {
+          "type": "security",
+          "icon": "🛡️",
+          "title": "Integration of SAST/DAST in CI/CD Pipelines",
+          "description": "I implement static and dynamic code analysis tools in deployment pipelines to detect vulnerabilities before they reach production.",
+          "tags": ["OWASP", "Snyk", "SonarQube", "ZAP"]
+        },
+        {
+          "type": "automation",
+          "icon": "🤖",
+          "title": "Infrastructure as Code with Security Validation",
+          "description": "I create infrastructure templates with Terraform and Ansible, integrating automated security controls that ensure compliance with best practices.",
+          "tags": ["Terraform", "Ansible", "AWS", "GCP"]
+        },
+        {
+          "type": "collaboration",
+          "icon": "👥",
+          "title": "Security Awareness Workshops",
+          "description": "I regularly organize training sessions for development teams on the latest threats and secure coding best practices.",
+          "tags": ["Training", "Code Review", "Documentation"]
+        },
+        {
+          "type": "improvement",
+          "icon": "📊",
+          "title": "Security Metrics and KPIs",
+          "description": "I set up security dashboards to track progress, identify trends, and prioritize improvement efforts.",
+          "tags": ["Metrics", "Dashboards", "Reporting"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Do you share these values?",
+      "description": "Discover how I apply these principles in my projects or learn more about my professional background.",
+      "projectsButton": "View my projects",
+      "aboutButton": "Learn more about me"
     }
   },
   "projects": {
-    "title": "My projects",
+    "title": "My Projects",
+    "description": "A selection of DevSecOps projects I've worked on, demonstrating my expertise in development, security, and operations.",
     "filters": {
       "all": "All",
       "dev": "Development",
       "sec": "Security",
       "ops": "Operations"
+    },
+    "categories": {
+      "dev": "Development",
+      "sec": "Security",
+      "ops": "Operations"
+    },
+    "viewDemo": "View Demo",
+    "viewCode": "View Code",
+    "details": "More Details",
+    "close": "Close",
+    "detailsModal": {
+      "objectives": "Objectives",
+      "challenges": "Challenges Faced",
+      "solutions": "Solutions Implemented",
+      "technologies": "Technologies Used"
+    },
+    "projectsList": {
+      "project1": {
+        "title": "Secure CI/CD Pipeline",
+        "description": "Implementation of a CI/CD pipeline with integrated security analysis to detect vulnerabilities before deployment.",
+        "fullDescription": "This project aimed to integrate security directly into the development process of a team of 20 developers, automating security analyses and enforcing quality gates before production deployment.",
+        "objectives": [
+          "Automatically detect code vulnerabilities",
+          "Block deployment in case of critical vulnerabilities",
+          "Provide detailed reports to developers",
+          "Maintain reasonable build times"
+        ],
+        "challenges": [
+          "High number of false positives in analysis tools",
+          "Initial resistance from development teams",
+          "Complex integration with existing tools",
+          "Performance of SAST/DAST analyses in the pipeline"
+        ],
+        "solutions": [
+          "Implementation of a whitelist for identified false positives",
+          "Organization of awareness workshops for teams",
+          "Development of custom plugins for integration",
+          "Optimization of analyses through parallel execution"
+        ]
+      },
+      "project2": {
+        "title": "Secure Cloud Infrastructure",
+        "description": "Design and implementation of a highly available and secure multi-region cloud infrastructure with Terraform.",
+        "fullDescription": "This project involved creating a robust cloud infrastructure for a finance application processing sensitive data, with a particular focus on security, high availability, and compliance with regulations.",
+        "objectives": [
+          "Ensure 99.99% availability",
+          "Meet GDPR and PCI DSS requirements",
+          "Minimize infrastructure costs",
+          "Facilitate multi-environment deployment"
+        ],
+        "challenges": [
+          "Complexity of multi-region configuration",
+          "Fine-grained access and secrets management",
+          "Comprehensive security monitoring",
+          "Exhaustive documentation for auditors"
+        ],
+        "solutions": [
+          "Use of reusable Terraform modules",
+          "Integration with HashiCorp Vault for secrets management",
+          "Deployment of an ELK stack for log centralization",
+          "Automation of documentation generation with Terraform"
+        ]
+      },
+      "project3": {
+        "title": "Secure Web Application",
+        "description": "Development of a web application with strong authentication and protection against common attacks.",
+        "fullDescription": "This project involved developing a modern web application for a healthcare company, with a particular emphasis on data security and protection against common web attacks.",
+        "objectives": [
+          "Ensure protection of sensitive data",
+          "Implement multi-factor authentication",
+          "Prevent XSS, CSRF, and SQL injection attacks",
+          "Develop an intuitive user interface"
+        ],
+        "challenges": [
+          "Balancing security and user experience",
+          "Efficient management of user sessions",
+          "Implementation of comprehensive automated tests",
+          "Meeting performance constraints"
+        ],
+        "solutions": [
+          "Use of secure libraries for authentication",
+          "Systematic validation and escaping of user inputs",
+          "Automated test suite including security scenarios",
+          "Query optimization and caching"
+        ]
+      },
+      "project4": {
+        "title": "Penetration Testing Automation",
+        "description": "Creation of a framework to automate penetration testing in pre-production environments.",
+        "fullDescription": "This project aimed to automate the detection of security vulnerabilities in applications before their deployment to production, allowing development teams to quickly identify and fix security issues.",
+        "objectives": [
+          "Automate recurring penetration tests",
+          "Integrate results into existing tracking tools",
+          "Prioritize vulnerabilities based on their impact",
+          "Reduce time to fix vulnerabilities"
+        ],
+        "challenges": [
+          "Diversity of applications to test",
+          "Dynamic test configuration",
+          "Reduction of false positives",
+          "Comprehensible reporting for non-experts"
+        ],
+        "solutions": [
+          "Development of an API to configure tests",
+          "Use of custom rules for each application",
+          "Algorithm for validating detected vulnerabilities",
+          "Dashboard with trend visualization"
+        ]
+      },
+      "project5": {
+        "title": "Monitoring Platform",
+        "description": "Implementation of a centralized monitoring and alerting platform for a multi-cloud infrastructure.",
+        "fullDescription": "This project consisted of developing a comprehensive monitoring solution to track the performance and security of a distributed infrastructure across multiple cloud providers, with anomaly detection and automatic alerts.",
+        "objectives": [
+          "Centralize monitoring of multiple cloud environments",
+          "Proactively detect potential issues",
+          "Set up relevant alerts",
+          "Visualize long-term trends"
+        ],
+        "challenges": [
+          "Heterogeneity of data sources",
+          "Large volume of metrics to process",
+          "Configuration of relevant alert thresholds",
+          "Maintaining the availability of the platform itself"
+        ],
+        "solutions": [
+          "Use of standardized collectors for each environment",
+          "Distributed architecture with automatic scaling",
+          "Implementation of anomaly detection algorithms",
+          "Setup of redundant monitoring"
+        ]
+      },
+      "project6": {
+        "title": "SSO Authentication System",
+        "description": "Design and implementation of a secure single sign-on system for an ecosystem of internal applications.",
+        "fullDescription": "This project aimed to simplify the user experience while enhancing security by implementing a single sign-on (SSO) solution for all internal company applications.",
+        "objectives": [
+          "Unify authentication across all applications",
+          "Strengthen security with MFA",
+          "Simplify user management",
+          "Maintain a complete audit trail"
+        ],
+        "challenges": [
+          "Diversity of application technologies",
+          "Migration of existing users",
+          "High availability required",
+          "Strict audit requirements"
+        ],
+        "solutions": [
+          "Implementation based on OAuth2 and OIDC",
+          "Migration script with strict validation",
+          "Multi-zone redundant architecture",
+          "Comprehensive logging and audit system"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Interested in my other projects?",
+      "description": "Discover more projects I've worked on by visiting my GitHub profile.",
+      "button": "View my GitHub"
     }
   },
   "footer": {
-    "copyright": "© 2025 - Built with ❤️ by Flavien",
+    "copyright": "© 2025 - Built with ❤️ by",
     "rights": "All rights reserved"
   }
 }

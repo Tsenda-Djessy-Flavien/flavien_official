@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { useI18n } from 'vue-i18n'
+import i18n from '@/i18n' // Importez directement l'instance i18n
 
 export const useLocaleStore = defineStore('locale', {
   state: () => ({
@@ -11,9 +11,8 @@ export const useLocaleStore = defineStore('locale', {
       this.locale = locale
       localStorage.setItem('locale', locale)
 
-      // Changer la langue dans l'application
-      const i18n = useI18n()
-      i18n.locale.value = locale
+      // Changez directement la locale via l'instance i18n importée
+      i18n.global.locale.value = locale
 
       // Mettre à jour l'attribut lang du document
       document.documentElement.setAttribute('lang', locale)
@@ -21,8 +20,7 @@ export const useLocaleStore = defineStore('locale', {
 
     initLocale() {
       // Initialiser la langue au chargement de l'application
-      const i18n = useI18n()
-      i18n.locale.value = this.locale
+      i18n.global.locale.value = this.locale
       document.documentElement.setAttribute('lang', this.locale)
     },
   },

@@ -16,8 +16,8 @@
   "home": {
     "hero": {
       "title1": "Bonjour, je suis",
-      "title2": "DevSecOps",
-      "subtitle": "Je conçois, sécurise et déploie des applications modernes",
+      "title2": "Flavien Tsenda",
+      "subtitle": "Ingénieur DevSecOps, je conçois, sécurise et déploie des applications modernes",
       "cta1": "Voir mes projets",
       "cta2": "En savoir plus"
     },
@@ -55,40 +55,406 @@
   "about": {
     "title": "À propos de moi",
     "description": "Professionnel DevSecOps passionné par l'intégration de la sécurité dans le cycle de développement logiciel.",
-    "experience": "Expérience",
+    "whoAmI": "Qui suis-je ?",
+    "bio": {
+      "part1": "Je suis un ingénieur DevSecOps avec une solide expérience dans l'intégration de pratiques de sécurité dans les cycles de développement et de déploiement continus. J'ai travaillé sur des projets variés allant des applications cloud natives aux infrastructures critiques.",
+      "part2": "Ma passion est de construire des systèmes sécurisés dès leur conception, en automatisant les contrôles de sécurité et en rendant la sécurité accessible à tous les membres de l'équipe de développement."
+    },
+    "tags": [
+      "DevSecOps",
+      "Automatisation",
+      "Cloud Native",
+      "Sécurité Applicative",
+      "CI/CD",
+      "Infrastructure as Code"
+    ],
+    "experience": "Expérience professionnelle",
+    "jobs": [
+      {
+        "period": "2023 - Présent",
+        "location": "Paris, France",
+        "title": "Ingénieur DevSecOps Senior",
+        "company": "EntrepriseTech",
+        "description": "Responsable de l'implémentation et de la gestion de l'infrastructure sécurisée et des pipelines CI/CD.",
+        "achievements": [
+          "Mise en place d'une plateforme CI/CD avec security gates intégrés réduisant les vulnérabilités de 70%",
+          "Automatisation des contrôles de sécurité dans le pipeline de déploiement",
+          "Développement d'une solution de gestion des secrets pour l'entreprise",
+          "Formation des équipes de développement aux bonnes pratiques DevSecOps"
+        ],
+        "technologies": [
+          "Kubernetes",
+          "AWS",
+          "Terraform",
+          "GitLab CI",
+          "Docker",
+          "Vault",
+          "Prometheus",
+          "Grafana"
+        ]
+      },
+      {
+        "period": "2020 - 2023",
+        "location": "Lyon, France",
+        "title": "Ingénieur DevOps",
+        "company": "SécuriTech",
+        "description": "Responsable de l'infrastructure cloud et de l'automatisation des déploiements.",
+        "achievements": [
+          "Migration de 15 applications monolithiques vers une architecture microservices",
+          "Réduction de 80% du temps de déploiement grâce à l'automatisation",
+          "Mise en place d'une solution de monitoring et de logging centralisée",
+          "Implémentation d'une infrastructure as code avec Terraform"
+        ],
+        "technologies": [
+          "GCP",
+          "Kubernetes",
+          "Terraform",
+          "Jenkins",
+          "Elasticsearch",
+          "Ansible",
+          "Python"
+        ]
+      }
+    ],
     "education": "Formation",
-    "skills": "Compétences"
+    "educations": [
+      {
+        "period": "2017 - 2020",
+        "location": "Paris, France",
+        "degree": "Master en Sécurité Informatique",
+        "institution": "École Polytechnique",
+        "description": "Spécialisation en cybersécurité et développement sécurisé. Projet de fin d'études sur l'automatisation des tests de pénétration dans les pipelines CI/CD."
+      },
+      {
+        "period": "2014 - 2017",
+        "location": "Lyon, France",
+        "degree": "Licence en Informatique",
+        "institution": "Université Claude Bernard Lyon 1",
+        "description": "Formation générale en informatique avec une spécialisation en développement logiciel."
+      }
+    ],
+    "certifications": "Certifications",
+    "certificationList": [
+      {
+        "icon": "🔒",
+        "name": "Certified Kubernetes Security Specialist (CKS)",
+        "issuer": "Cloud Native Computing Foundation",
+        "date": "2023",
+        "description": "Certification avancée sur la sécurisation des environnements Kubernetes."
+      },
+      {
+        "icon": "☁️",
+        "name": "AWS Certified Security - Specialty",
+        "issuer": "Amazon Web Services",
+        "date": "2022",
+        "description": "Expertise en sécurité sur la plateforme AWS."
+      },
+      {
+        "icon": "🛡️",
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "issuer": "ISC²",
+        "date": "2021",
+        "description": "Certification reconnue internationalement dans le domaine de la sécurité informatique."
+      }
+    ],
+    "skillsTitle": "Compétences techniques",
+    "skillCategories": {
+      "development": {
+        "title": "Développement",
+        "skills": [
+          { "name": "JavaScript/TypeScript", "level": 90 },
+          { "name": "Python", "level": 85 },
+          { "name": "Go", "level": 75 },
+          { "name": "Vue.js/React", "level": 80 },
+          { "name": "API RESTful", "level": 85 }
+        ]
+      },
+      "security": {
+        "title": "Sécurité",
+        "skills": [
+          { "name": "SAST/DAST", "level": 90 },
+          { "name": "Pentest", "level": 80 },
+          { "name": "Gestion des secrets", "level": 85 },
+          { "name": "Conformité RGPD", "level": 75 },
+          { "name": "OAuth/OIDC", "level": 85 }
+        ]
+      },
+      "operations": {
+        "title": "Opérations",
+        "skills": [
+          { "name": "Kubernetes", "level": 90 },
+          { "name": "Docker", "level": 95 },
+          { "name": "CI/CD", "level": 90 },
+          { "name": "Terraform", "level": 85 },
+          { "name": "Cloud (AWS/GCP)", "level": 80 }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Intéressé par une collaboration ?",
+      "description": "Je suis toujours ouvert aux nouvelles opportunités et aux projets passionnants. N'hésitez pas à me contacter pour discuter de comment je pourrais contribuer à votre équipe ou projet.",
+      "cta": "Me contacter"
+    }
   },
   "values": {
     "title": "Mes valeurs",
+    "description": "Les principes qui guident mon approche DevSecOps et façonnent ma pratique professionnelle quotidienne.",
     "security": {
       "title": "Sécurité dès la conception",
-      "description": "La sécurité doit être intégrée dès le début du processus de développement."
+      "description": "La sécurité doit être intégrée dès le début du processus de développement, et non ajoutée comme une réflexion après coup.",
+      "points": [
+        "Analyse de menaces et modélisation des risques en amont du développement",
+        "Tests de sécurité automatisés à chaque étape du pipeline",
+        "Principe du moindre privilège dans toute conception",
+        "Éducation continue des équipes sur les meilleures pratiques de sécurité"
+      ]
     },
     "automation": {
       "title": "Automatisation",
-      "description": "L'automatisation des processus permet de réduire les erreurs humaines et d'accélérer le déploiement."
+      "description": "L'automatisation des processus permet de réduire les erreurs humaines, d'accélérer le déploiement et d'améliorer la fiabilité.",
+      "points": [
+        "Infrastructure as Code pour des environnements reproductibles",
+        "Pipelines CI/CD pour des déploiements fiables et rapides",
+        "Tests automatisés pour garantir la qualité et la sécurité",
+        "Monitoring et alerting automatisés pour une détection proactive des problèmes"
+      ]
     },
     "collaboration": {
       "title": "Collaboration",
-      "description": "La collaboration entre les équipes de développement, de sécurité et d'opérations est essentielle."
+      "description": "La collaboration entre les équipes de développement, de sécurité et d'opérations est essentielle pour créer des systèmes robustes et sécurisés.",
+      "points": [
+        "Culture DevSecOps où la sécurité est la responsabilité de chacun",
+        "Partage des connaissances et formation interdisciplinaire",
+        "Communication ouverte et transparente",
+        "Revues de code collaboratives intégrant des aspects de sécurité"
+      ]
     },
     "continuousImprovement": {
       "title": "Amélioration continue",
-      "description": "L'amélioration continue des processus et des compétences est nécessaire pour rester compétitif."
+      "description": "L'amélioration continue des processus, des outils et des compétences est nécessaire pour maintenir l'excellence et s'adapter aux nouvelles menaces.",
+      "points": [
+        "Analyse rétrospective régulière des incidents et presque-incidents",
+        "Veille technologique active sur les nouvelles menaces",
+        "Mise à jour continue des outils et des pratiques",
+        "Formation permanente et partage des connaissances"
+      ]
+    },
+    "quote": {
+      "text": "La sécurité est un processus, pas un produit.",
+      "author": "Bruce Schneier"
+    },
+    "application": {
+      "title": "Comment j'applique ces valeurs",
+      "practices": [
+        {
+          "type": "security",
+          "icon": "🛡️",
+          "title": "Intégration de SAST/DAST dans les pipelines CI/CD",
+          "description": "J'implémente des outils d'analyse statique et dynamique du code dans les pipelines de déploiement pour détecter les vulnérabilités avant qu'elles n'atteignent la production.",
+          "tags": ["OWASP", "Snyk", "SonarQube", "ZAP"]
+        },
+        {
+          "type": "automation",
+          "icon": "🤖",
+          "title": "Infrastructure as Code avec validation de sécurité",
+          "description": "Je crée des templates d'infrastructure avec Terraform et Ansible, intégrant des contrôles de sécurité automatisés qui garantissent le respect des meilleures pratiques.",
+          "tags": ["Terraform", "Ansible", "AWS", "GCP"]
+        },
+        {
+          "type": "collaboration",
+          "icon": "👥",
+          "title": "Ateliers de sensibilisation à la sécurité",
+          "description": "J'organise régulièrement des sessions de formation pour les équipes de développement sur les dernières menaces et les meilleures pratiques de codage sécurisé.",
+          "tags": ["Formation", "Code Review", "Documentation"]
+        },
+        {
+          "type": "improvement",
+          "icon": "📊",
+          "title": "Métriques et KPIs de sécurité",
+          "description": "Je mets en place des tableaux de bord de sécurité pour suivre les progrès, identifier les tendances et prioriser les efforts d'amélioration.",
+          "tags": ["Métriques", "Dashboards", "Reporting"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vous partagez ces valeurs?",
+      "description": "Découvrez comment j'applique ces principes dans mes projets ou en savoir plus sur mon parcours professionnel.",
+      "projectsButton": "Voir mes projets",
+      "aboutButton": "En savoir plus sur moi"
     }
   },
   "projects": {
     "title": "Mes projets",
+    "description": "Une sélection de projets DevSecOps sur lesquels j'ai travaillé, démontrant mon expertise en développement, sécurité et opérations.",
     "filters": {
       "all": "Tous",
       "dev": "Développement",
       "sec": "Sécurité",
-      "ops": "Operations"
+      "ops": "Opérations"
+    },
+    "categories": {
+      "dev": "Développement",
+      "sec": "Sécurité",
+      "ops": "Opérations"
+    },
+    "viewDemo": "Voir la démo",
+    "viewCode": "Voir le code",
+    "details": "Plus de détails",
+    "close": "Fermer",
+    "detailsModal": {
+      "objectives": "Objectifs",
+      "challenges": "Défis rencontrés",
+      "solutions": "Solutions apportées",
+      "technologies": "Technologies utilisées"
+    },
+    "projectsList": {
+      "project1": {
+        "title": "Pipeline CI/CD Sécurisé",
+        "description": "Mise en place d'un pipeline CI/CD avec analyse de sécurité intégrée pour détecter les vulnérabilités avant le déploiement.",
+        "fullDescription": "Ce projet visait à intégrer la sécurité directement dans le processus de développement d'une équipe de 20 développeurs, en automatisant les analyses de sécurité et en imposant des gates de qualité avant le déploiement en production.",
+        "objectives": [
+          "Détecter automatiquement les vulnérabilités dans le code",
+          "Bloquer le déploiement en cas de vulnérabilités critiques",
+          "Fournir des rapports détaillés aux développeurs",
+          "Maintenir un temps de build raisonnable"
+        ],
+        "challenges": [
+          "Nombre élevé de faux positifs dans les outils d'analyse",
+          "Résistance initiale des équipes de développement",
+          "Intégration complexe avec les outils existants",
+          "Performance des analyses SAST/DAST dans le pipeline"
+        ],
+        "solutions": [
+          "Mise en place d'une whitelist pour les faux positifs identifiés",
+          "Organisation d'ateliers de sensibilisation pour les équipes",
+          "Développement de plugins personnalisés pour l'intégration",
+          "Optimisation des analyses par l'exécution parallèle"
+        ]
+      },
+      "project2": {
+        "title": "Infrastructure Cloud Sécurisée",
+        "description": "Conception et implémentation d'une infrastructure cloud multi-régions hautement disponible et sécurisée avec Terraform.",
+        "fullDescription": "Ce projet consistait à créer une infrastructure cloud robuste pour une application de finance traitant des données sensibles, avec un focus particulier sur la sécurité, la haute disponibilité et la conformité aux réglementations.",
+        "objectives": [
+          "Garantir une disponibilité de 99.99%",
+          "Respecter les exigences RGPD et PCI DSS",
+          "Minimiser les coûts d'infrastructure",
+          "Faciliter le déploiement multi-environnements"
+        ],
+        "challenges": [
+          "Complexité de la configuration multi-régions",
+          "Gestion fine des accès et des secrets",
+          "Monitoring complet de la sécurité",
+          "Documentation exhaustive pour les auditeurs"
+        ],
+        "solutions": [
+          "Utilisation de modules Terraform réutilisables",
+          "Intégration avec HashiCorp Vault pour la gestion des secrets",
+          "Déploiement d'une stack ELK pour la centralisation des logs",
+          "Automatisation de la génération de documentation avec Terraform"
+        ]
+      },
+      "project3": {
+        "title": "Application Web Sécurisée",
+        "description": "Développement d'une application web avec authentification forte et protection contre les attaques courantes.",
+        "fullDescription": "Ce projet impliquait le développement d'une application web moderne pour une entreprise du secteur santé, avec un accent particulier sur la sécurité des données et la protection contre les attaques web courantes.",
+        "objectives": [
+          "Assurer la protection des données sensibles",
+          "Implémenter une authentification multi-facteurs",
+          "Prévenir les attaques XSS, CSRF et injection SQL",
+          "Développer une interface utilisateur intuitive"
+        ],
+        "challenges": [
+          "Équilibrer sécurité et expérience utilisateur",
+          "Gestion efficace des sessions utilisateur",
+          "Mise en place de tests automatisés complets",
+          "Respect des contraintes de performances"
+        ],
+        "solutions": [
+          "Utilisation de bibliothèques sécurisées pour l'authentification",
+          "Validation et échappement systématique des entrées utilisateur",
+          "Suite de tests automatisés incluant des scénarios de sécurité",
+          "Optimisation des requêtes et mise en cache"
+        ]
+      },
+      "project4": {
+        "title": "Automatisation des Tests de Pénétration",
+        "description": "Création d'un framework pour automatiser les tests de pénétration dans les environnements de préproduction.",
+        "fullDescription": "Ce projet visait à automatiser la détection de vulnérabilités de sécurité dans les applications avant leur déploiement en production, permettant aux équipes de développement d'identifier et corriger les problèmes de sécurité rapidement.",
+        "objectives": [
+          "Automatiser les tests de pénétration récurrents",
+          "Intégrer les résultats dans les outils de suivi existants",
+          "Prioriser les vulnérabilités selon leur impact",
+          "Réduire le temps de correction des failles"
+        ],
+        "challenges": [
+          "Diversité des applications à tester",
+          "Configuration dynamique des tests",
+          "Réduction des faux positifs",
+          "Reporting compréhensible pour les non-experts"
+        ],
+        "solutions": [
+          "Développement d'une API pour configurer les tests",
+          "Utilisation de règles personnalisées pour chaque application",
+          "Algorithme de validation des vulnérabilités détectées",
+          "Tableau de bord avec visualisation des tendances"
+        ]
+      },
+      "project5": {
+        "title": "Plateforme de Monitoring",
+        "description": "Mise en place d'une plateforme centralisée de monitoring et d'alerte pour une infrastructure multi-cloud.",
+        "fullDescription": "Ce projet consistait à développer une solution de monitoring complète pour surveiller les performances et la sécurité d'une infrastructure distribuée sur plusieurs fournisseurs cloud, avec détection d'anomalies et alertes automatiques.",
+        "objectives": [
+          "Centraliser la surveillance de plusieurs environnements cloud",
+          "Détecter proactivement les problèmes potentiels",
+          "Mettre en place des alertes pertinentes",
+          "Visualiser les tendances à long terme"
+        ],
+        "challenges": [
+          "Hétérogénéité des sources de données",
+          "Volume important de métriques à traiter",
+          "Configuration de seuils d'alerte pertinents",
+          "Maintien de la disponibilité de la plateforme elle-même"
+        ],
+        "solutions": [
+          "Utilisation de collecteurs standardisés pour chaque environnement",
+          "Architecture distribuée avec mise à l'échelle automatique",
+          "Implémentation d'algorithmes de détection d'anomalies",
+          "Mise en place d'une surveillance redondante"
+        ]
+      },
+      "project6": {
+        "title": "Système d'Authentification SSO",
+        "description": "Conception et implémentation d'un système d'authentification unique sécurisé pour un écosystème d'applications internes.",
+        "fullDescription": "Ce projet avait pour objectif de simplifier l'expérience utilisateur tout en renforçant la sécurité en mettant en place une solution d'authentification unique (SSO) pour toutes les applications internes de l'entreprise.",
+        "objectives": [
+          "Unifier l'authentification à travers toutes les applications",
+          "Renforcer la sécurité avec MFA",
+          "Simplifier la gestion des utilisateurs",
+          "Maintenir un audit trail complet"
+        ],
+        "challenges": [
+          "Diversité des technologies d'applications",
+          "Migration des utilisateurs existants",
+          "Haute disponibilité requise",
+          "Exigences strictes en matière d'audit"
+        ],
+        "solutions": [
+          "Implémentation basée sur OAuth2 et OIDC",
+          "Script de migration avec validation stricte",
+          "Architecture redondante multi-zones",
+          "Système complet de logging et d'audit"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Intéressé par mes autres projets?",
+      "description": "Découvrez d'autres projets sur lesquels j'ai travaillé en visitant mon profil GitHub.",
+      "button": "Voir mon GitHub"
     }
   },
   "footer": {
-    "copyright": "© 2025 - Conçu avec ❤️ par Flavien",
+    "copyright": "© 2025 - Conçu avec ❤️ par",
     "rights": "Tous droits réservés"
   }
 }
