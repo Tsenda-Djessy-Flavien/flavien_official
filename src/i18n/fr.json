@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "values": "Mes valeurs",
+    "projects": "Mes projets"
+  },
+  "theme": {
+    "light": "Thème clair",
+    "dark": "Thème sombre"
+  },
+  "lang": {
+    "fr": "Français",
+    "en": "Anglais"
+  },
+  "home": {
+    "hero": {
+      "title1": "Bonjour, je suis",
+      "title2": "DevSecOps",
+      "subtitle": "Je conçois, sécurise et déploie des applications modernes",
+      "cta1": "Voir mes projets",
+      "cta2": "En savoir plus"
+    },
+    "skills": {
+      "title": "Mes compétences",
+      "dev": {
+        "title": "Développement",
+        "items": [
+          "Frontend: Vue.js, React, TypeScript",
+          "Backend: Node.js, Python, Go",
+          "API: REST, GraphQL",
+          "Base de données: PostgreSQL, MongoDB"
+        ]
+      },
+      "sec": {
+        "title": "Sécurité",
+        "items": ["SAST/DAST", "Pentesting", "Audit de sécurité", "Conformité RGPD"]
+      },
+      "ops": {
+        "title": "Operations",
+        "items": [
+          "CI/CD: GitHub Actions, GitLab CI",
+          "Container: Docker, Kubernetes",
+          "Cloud: AWS, GCP, Azure",
+          "IaC: Terraform, Ansible"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projets en vedette",
+      "viewProject": "Voir le projet",
+      "viewAll": "Voir tous les projets"
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Professionnel DevSecOps passionné par l'intégration de la sécurité dans le cycle de développement logiciel.",
+    "experience": "Expérience",
+    "education": "Formation",
+    "skills": "Compétences"
+  },
+  "values": {
+    "title": "Mes valeurs",
+    "security": {
+      "title": "Sécurité dès la conception",
+      "description": "La sécurité doit être intégrée dès le début du processus de développement."
+    },
+    "automation": {
+      "title": "Automatisation",
+      "description": "L'automatisation des processus permet de réduire les erreurs humaines et d'accélérer le déploiement."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "La collaboration entre les équipes de développement, de sécurité et d'opérations est essentielle."
+    },
+    "continuousImprovement": {
+      "title": "Amélioration continue",
+      "description": "L'amélioration continue des processus et des compétences est nécessaire pour rester compétitif."
+    }
+  },
+  "projects": {
+    "title": "Mes projets",
+    "filters": {
+      "all": "Tous",
+      "dev": "Développement",
+      "sec": "Sécurité",
+      "ops": "Operations"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 - Conçu avec ❤️ par Flavien",
+    "rights": "Tous droits réservés"
+  }
+}

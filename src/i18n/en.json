@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "values": "My Values",
+    "projects": "My Projects"
+  },
+  "theme": {
+    "light": "Light Theme",
+    "dark": "Dark Theme"
+  },
+  "lang": {
+    "fr": "French",
+    "en": "English"
+  },
+  "home": {
+    "hero": {
+      "title1": "Hello, I'm a",
+      "title2": "DevSecOps",
+      "subtitle": "I design, secure and deploy modern applications",
+      "cta1": "View my projects",
+      "cta2": "Learn more"
+    },
+    "skills": {
+      "title": "My skills",
+      "dev": {
+        "title": "Development",
+        "items": [
+          "Frontend: Vue.js, React, TypeScript",
+          "Backend: Node.js, Python, Go",
+          "API: REST, GraphQL",
+          "Database: PostgreSQL, MongoDB"
+        ]
+      },
+      "sec": {
+        "title": "Security",
+        "items": ["SAST/DAST", "Pentesting", "Security Audit", "GDPR Compliance"]
+      },
+      "ops": {
+        "title": "Operations",
+        "items": [
+          "CI/CD: GitHub Actions, GitLab CI",
+          "Container: Docker, Kubernetes",
+          "Cloud: AWS, GCP, Azure",
+          "IaC: Terraform, Ansible"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Featured projects",
+      "viewProject": "View project",
+      "viewAll": "View all projects"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "description": "DevSecOps professional passionate about integrating security into the software development lifecycle.",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills"
+  },
+  "values": {
+    "title": "My values",
+    "security": {
+      "title": "Security by Design",
+      "description": "Security must be integrated from the beginning of the development process."
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Process automation reduces human error and accelerates deployment."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Collaboration between development, security, and operations teams is essential."
+    },
+    "continuousImprovement": {
+      "title": "Continuous Improvement",
+      "description": "Continuous improvement of processes and skills is necessary to remain competitive."
+    }
+  },
+  "projects": {
+    "title": "My projects",
+    "filters": {
+      "all": "All",
+      "dev": "Development",
+      "sec": "Security",
+      "ops": "Operations"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 - Built with ❤️ by Flavien",
+    "rights": "All rights reserved"
+  }
+}
